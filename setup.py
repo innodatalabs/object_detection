@@ -4,7 +4,7 @@ NAME = 'object_detection'
 
 setup(
     name=NAME,
-    version='0.1.0',
+    version='0.1.1',
     description='See tensorflow/models on GitHub',
 
     license='MIT',
@@ -24,5 +24,5 @@ setup(
     ],
     packages=find_packages(),
     namespace_packages=[], #find_namespace_packages(),
-    install_requires=['tensorflow>=1.14.0', 'lxml>=4.5.0'],
+    install_requires=['tensorflow~=1.14.0', 'lxml~=4.5.0'],
 )
