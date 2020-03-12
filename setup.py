@@ -4,7 +4,7 @@ NAME = 'object_detection'
 
 setup(
     name=NAME,
-    version='0.1.1',
+    version='0.1.2',
     description='See tensorflow/models on GitHub',
 
     license='MIT',
