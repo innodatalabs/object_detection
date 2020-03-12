@@ -24,5 +24,5 @@ setup(
     ],
     packages=find_packages(),
     namespace_packages=[], #find_namespace_packages(),
-    install_requires=['tensorflow~=1.14.0', 'lxml~=4.5.0'],
+    install_requires=['tensorflow~=1.15.0', 'lxml~=4.5.0'],
 )
